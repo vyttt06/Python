@@ -7,7 +7,7 @@ if b != 0:
     thuong = a/b
 else:
     thuong = ("Không thể chia")
-Luy_thua = a ** b
+Luy_thua = pow(a,b) 
 print(f"Tổng của a và b = ",tong)
 print(f"Hiệu của a và b = ", hieu)
 print(f"Tích của a và b = ", tich)
